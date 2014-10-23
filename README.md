@@ -24,7 +24,7 @@ You can try the List by compiling linkedlist.f90 and execute it.
   I am trying to compile PGI Fortran 14.9.
 
 ## Bugs
-Calling subroutines related to remove an item from a list causes illegal memory access.
+Calling subroutines related to remove an item from a list including only one item causes an illegal memory access.
 if you remove all items form a list, you can use the clear() subroutine.
 
 
