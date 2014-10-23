@@ -1,7 +1,7 @@
 Doubly Linked List for Fortran 2003
 ====
 
-Overview
+## Overview
 This is a module to introduce a Doubly Linked List feature into Fortran 2003.
 
 ## Description
@@ -14,13 +14,13 @@ This iterator allows you to write multiple loop.
 You can try the List by compiling linkedlist.f90 and execute it.
 
 ## Feature
-*written in Fortran 2003 - you may not be staring in envy Java anymore
-*based on the Object-Oriented Programming
-*treat all types Fortran supports by the Unlimited Polymorphism feature
-*provide iterator feature such as Java's List. the procedures next() and hasNext() are also available
+* written in Fortran 2003 - you may not be staring in envy Java anymore  
+* based on the Object-Oriented Programming  
+* treat all types Fortran supports by the Unlimited Polymorphism feature  
+* provide iterator feature such as Java's List. the procedures next() and hasNext() are also available  
 
 ## Requirement
-*Recommended (perhaps necessary) compiler is Intel Fortran Composer XE 2013 update 5 or later.
+* Recommended (perhaps necessary) compiler is Intel Fortran Composer XE 2013 update 5 or later.  
   I am trying to compile PGI Fortran 14.9.
 
 ## Bugs
