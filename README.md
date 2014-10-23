@@ -21,11 +21,11 @@ You can try the List by compiling linkedlist.f90 and execute it.
 
 ## Requirement
 * Recommended (perhaps necessary) compiler is Intel Fortran Composer XE 2013 update 5 or later.  
-  I am trying to compile PGI Fortran 14.9.
+  I am modifying the codes to complete the compilation using PGI Fortran 14.9.
 
 ## Bugs
 Calling subroutines related to remove an item from a list including only one item causes an illegal memory access.
-if you remove all items form a list, you can use the clear() subroutine.
+if you'd like to remove all items from a list, you can use the clear() subroutine.
 
 
 ## Author
